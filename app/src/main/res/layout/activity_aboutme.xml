@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff7f6"
+    tools:context=".Aboutme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Myself,
+                          Rajvardhan Mohan Patil"
+            />
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="22sp"
+            android:text="Diligent , passionate and technology - driven enthusiast and keen to learn new technology and profound passion for problem solving ."
+            />
+        <TextView
+            android:id="@+id/edu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Education:-"/>
+        <TextView
+            android:id="@+id/deg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:text="B.TECH (2nd Year)"/>
+        <TextView
+            android:id="@+id/clg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="22sp"
+            android:text="Vellore Institute of Technology,Vellore
+                          2021 – Present"/>
+        <TextView
+            android:id="@+id/sensec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:text="SENIOR SECONDARY (XII)"/>
+        <TextView
+            android:id="@+id/schl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"
+            android:text="Vivekanand Jr.College, Kolhapur
+                          06/2019 – 04/2021"/>
+        <TextView
+            android:id="@+id/Pskills"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:text="Primary Skills:-"/>
+        <TextView
+            android:id="@+id/pyth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:text="1.Python -"/>
+        <TextView
+            android:id="@+id/pythkn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:text="Programming fundamentals, Control Structures, Collections, Strings and Regular Expressions, Collections, Functions and Files, Modules and Packages."/>
+        <TextView
+            android:id="@+id/xml"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="2.XML -"/>
+        <TextView
+            android:id="@+id/xmlkn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:text="Frontend development mobile applications using different types of layouts."/>
+        <TextView
+            android:id="@+id/UIUX"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="3.UI/UX -"/>
+        <TextView
+            android:id="@+id/uiuxkn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:text="Designing eye-catchy user interfaces using Figma as tool."/>
+        <TextView
+            android:id="@+id/kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="4.Kotlin-"/>
+        <TextView
+            android:id="@+id/kotlinkn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:text="Kotlin Fundamentals, OOPS."/>
+        <TextView
+            android:id="@+id/Sckills"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Secondary Skills:-"/>
+        <TextView
+            android:id="@+id/dsa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="1.Data Structures and Algorithms-"/>
+        <TextView
+            android:id="@+id/dsakn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:text="Learning DSA and its applications using C."/>
+        <TextView
+            android:id="@+id/java"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="2.Java-"/>
+        <TextView
+            android:id="@+id/javakn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:text="Learning "/>
+
+        <TextView
+            android:id="@+id/perpro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:text="Personal Projects:-"/>
+        <TextView
+            android:id="@+id/quizapp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="1.Quiz App"/>
+        <TextView
+            android:id="@+id/Basicalc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="2.Basic Calculator App"/>
+        <TextView
+            android:id="@+id/ageinMin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="3.Age in Minutes Calculator App"/>
+        <TextView
+            android:id="@+id/interest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:text="Interests:-"/>
+        <TextView
+            android:id="@+id/interests"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:text="Travelling , Trekking , Reading"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

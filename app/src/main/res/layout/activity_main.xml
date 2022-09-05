@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ic_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/tv_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:contentDescription="Quiz Image"
+        android:src="@drawable/imag" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Myself,
+                      Rajvardhan Patil"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Diligent , passionate and technology - driven enthusiast and keen to
+learn new technology and profound passion for problem solving ."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <Button
+        android:id="@+id/btnaboutme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        android:text="About me"
+        />
+
+    <Button
+        android:id="@+id/btndw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:text="download cv"
+        />
+
+
+</LinearLayout>
+</LinearLayout>
